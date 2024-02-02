@@ -1,0 +1,69 @@
+﻿/* Reset */
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, form, fieldset, p, button, menu {margin:0; padding:0}
+body, h1, h2, h3, h4, input, button {font-family:'돋움', Dotum, Helvetica, Sans-serif; font-size:12px; color:#383d41}
+body {background-color:#fff; *word-break:break-all; -ms-word-break:break-all}
+img, fieldset, iframe {border:0 none}
+li {list-style:none}
+input, select, button {vertical-align:middle}
+img {vertical-align:top}
+i, em, address {font-style:normal}
+label, button {cursor:pointer}
+button {margin:0; padding:0}
+a {color:#2f3743; text-decoration:none}
+a:hover {color:#390; text-decoration:underline}
+option {padding-right:6px}
+hr {display:none}
+legend {*width:0}
+table {/* border-collapse:collapse;table-layout:fixed; */border-collapse:collapse;border-spacing:0}
+
+/* Layout */
+.mainContent {
+    margin-top: 80px;
+    margin-bottom: 80px;
+    width: 700px;
+    margin-left: 120px;
+    margin-right: 120px;
+}
+
+.taskSection {
+    margin-top: 20px;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.tasks {
+    color: #000000;
+    font-family: "맑은 고딕", "Segoe UI", "verdana";
+    font-weight: 200;
+    font-size: 12pt;
+    margin-left:40px;
+    padding-top: 5px;
+}
+
+.tasks li {
+    line-height:23px;
+}
+
+.title {
+    color: #2778ec;
+    font-size: 38pt;
+    font-weight: 300;
+    vertical-align: bottom;
+    margin-bottom: 20px;
+    font-family: "맑은 고딕", "Segoe UI", "verdana";
+    position: relative;
+}
+
+ul, ol, li {
+    list-style:disc
+}
+
+.btn button {
+    display:inline-block;
+    padding:6px;
+    font-size:17px;
+    font-weight:bold;
+    color:#fff;
+    background-color:#2778ec;
+    border:0;
+}

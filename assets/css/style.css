@@ -1,0 +1,51 @@
+@charset "utf-8";
+
+/* Common */
+body,p,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,table,th,td,form,fieldset,legend,input,textarea,button,select{margin:0;padding:0}
+body,input,textarea,select,button,table{font-family:'나눔고딕',nanumgothic,'돋움',dotum,applegothic,sans-serif;font-size:12px}
+img,fieldset{border:0}
+ul,ol{list-style:none}
+em,address{font-style:normal}
+a{text-decoration:none}
+a:hover,a:active,a:focus{text-decoration:underline}
+legend,hr,caption{display:none}
+button{margin:0;padding:0;border:0;background:none}
+.blind{overflow:hidden;position:absolute;top:0;left:0;width:0;height:0;font-size:0;line-height:0}
+
+/* action */
+.show {display:block}
+.hide {display:none}
+
+/* layout */
+#container {min-width:1250px}
+
+header .header_wrap {position:relative; margin:0 auto; width:1050px}
+.intro .intro_wrap {position:relative; margin:0 auto; width:1050px}
+
+/* header */
+header {position:fixed; top:0; left:0; z-index:500; width:100%; height:70px; background:#424347}
+header h1 a {position:absolute; font-weight:normal; color:#fff}
+
+header .logo {position:absolute; top:14px; left:0; width:94px; height:42px; background:url(/jilpoong/assets/images/sp_main.png) no-repeat -20px -20px}
+header .logo a {display:block; width:94px; height:42px}
+
+.header_nav {position:absolute; top:26px; right:0}
+.header_nav ul li {float:left; margin-left:30px}
+.header_nav ul li a {display:block; background:url(/jilpoong/assets/images/sp_nav.png) no-repeat}
+
+.header_nav .nav_intro a {width:33px; height:18px; background-position:-145px -20px}
+.header_nav .nav_work a {width:66px; height:18px; background-position:-212px -20px}
+.header_nav .nav_pr a {width:84px; height:18px; background-position:-306px -20px}
+.header_nav .nav_adbuy a {width:65px; height:18px; background-position:-410px -20px}
+
+.header_nav .nav_intro a:hover {width:33px; height:18px; background-position:-145px -44px}
+.header_nav .nav_work a:hover {width:66px; height:18px; background-position:-212px -44px}
+.header_nav .nav_pr a:hover {width:84px; height:18px; background-position:-306px -44px}
+.header_nav .nav_adbuy a:hover {width:65px; height:18px; background-position:-410px -44px}
+
+/* container */
+#container {padding-top:70px}
+
+/* footer */
+footer {padding-top:33px; height:47px; background:#838790}
+footer a {display:block; margin:0 auto; width:356px; height:17px; background:url(/jilpoong/assets/images/footer.png) no-repeat}
